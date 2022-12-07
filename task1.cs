@@ -7,10 +7,8 @@ https://www.codewars.com/kata/57f609022f4d534f05000024/train/csharp
 using System;
 using System.Collections.Generic;
 
-class Solution
-{
-    public static int Stray(int[] numbers)
-    {
+class Solution{
+    public static int Stray(int[] numbers){
         List<int> firstGroup = new List<int> { };
         List<int> secondGroup = new List<int> { };
 
